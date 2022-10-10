@@ -3,7 +3,8 @@
 **As of Oct.10 Steps 1-8 completed. Bonus not yet attempted.
 
 Class Exercise:
-1.Generate a new Angular Application (without routing).
+
+1.Generate a new Angular Application (without routing).<br>
 2.Generate three components: "Home", "About" and "Contact".
 3.Redirect to the "HomeComponent" on the root route.
 4.The "HomeComponent" should dynamically render either the "About" or "Contact" page depending on the URL.
