@@ -1,5 +1,20 @@
-# Class16AngularRouting
-
+# Class 16 Angular Routing
+<hr>
+**As of Oct. 10: steps 1-8 completed. Bonus not yet attempted.
+<hr>
+Class Exercise Instructions
+<ol>
+<li>Generate a new Angular Application (without routing).</li>
+<li>Generate three components: "Home", "About" and "Contact".</li>
+<li>Redirect to the "HomeComponent" on the root route.</li>
+<li>The "HomeComponent" should dynamically render either the "About" or "Contact" page depending on the URL.</li>
+<li>Highlight the active route.</li>
+<li>Create two buttons that programmatically route to both components.</li>
+<li>Create two child components of the "About" page... the routes being: "about/bob" and "about/susan".</li>
+<li>Create a button on the "About" page that displays one of these components at a time.</li>
+</ol>
+Bonus: Add a 404 page not found that displays when URL is not recognized
+<hr>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
 ## Development server
