@@ -1,0 +1,21 @@
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1664987306980-ef638d1f42a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMxfGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  text-align: center;
+  color: whitesmoke;
+}
+
+
+h1, h2 {
+  padding: 25px;
+}
+.btn {
+  padding: 20x;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }

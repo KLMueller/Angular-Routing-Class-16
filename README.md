@@ -1,15 +1,27 @@
-# Angular-Routing-Class-16
+# Class16AngularRouting
 
-**As of Oct.10 Steps 1-8 completed. Bonus not yet attempted.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
-Class Exercise:
+## Development server
 
-1.Generate a new Angular Application (without routing).<br>
-2.Generate three components: "Home", "About" and "Contact".<br>
-3.Redirect to the "HomeComponent" on the root route.<br>
-4.The "HomeComponent" should dynamically render either the "About" or "Contact" page depending on the URL.<br>
-5.Highlight the active route.<br>
-6.Create two buttons that programmatically route to both components.<br>
-7.Create two child components of the "About" page... the routes being: "about/bob" and "about/susan".<br>
-8.Create a button on the "About" page that displays one of these components at a time.<br>
-Bonus: Add a 404 page not found that displays when URL is not recognized
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

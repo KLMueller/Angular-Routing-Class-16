@@ -1,0 +1,12 @@
+<a
+(click)="toggleButton = !toggleButton"
+class="btn btn-primary"
+[routerLink]="toggleButton ? ['bob'] : ['susan']"
+>
+More About Bob or Susan
+</a>
+<router-outlet></router-outlet>
+
+
+
+
