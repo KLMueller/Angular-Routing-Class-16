@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { BobComponent } from './about/bob/bob.component';
 import { SusanComponent } from './about/susan/susan.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const appRoutes: Routes = [
   {
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
 
       ] },
       { path: 'contact', component: ContactComponent },
+      { path: '**', pathMatch: 'full', component: PagenotfoundComponent },
     ],
   },
 ];
