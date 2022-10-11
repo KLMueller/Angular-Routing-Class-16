@@ -1,5 +1,7 @@
 # Class 16 Angular Routing
 <hr>
+**As of Oct.11: Bonus completed.
+<br>
 **As of Oct. 10: steps 1-8 completed. Bonus not yet attempted.
 <hr>
 Class Exercise Instructions
